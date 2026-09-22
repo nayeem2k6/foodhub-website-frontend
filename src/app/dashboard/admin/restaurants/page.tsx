@@ -6,7 +6,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { 
   FiPlus, FiSearch, FiEdit, FiTrash2, FiEye, 
-  FiFilter, FiGrid, FiList, FiChevronDown 
+  FiFilter, FiGrid, FiList, FiChevronDown, 
+  FiMapPin
 } from 'react-icons/fi';
 import DashboardHeader from '../../../components/DashboardHeader';
 import DashboardSidebar from '../../../components/DashboardSidebar';

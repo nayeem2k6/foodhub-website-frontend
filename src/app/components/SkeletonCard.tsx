@@ -5,8 +5,7 @@ import { motion } from 'framer-motion';
 const SkeletonCard = () => {
   return (
     <motion.div
-      initial={{ opacity: 0, skeleton: 1 }}
-      animate={{ opacity: 1, skeleton: 1 }}
+      initial={{ opacity: 0, }}
       className="card overflow-hidden bg-gradient-to-r from-gray-200 via-gray-100 to-gray-200 dark:from-gray-700 dark:via-gray-800 dark:to-gray-700 animate-pulse shadow-lg"
     >
       {/* Skeleton Image */}
